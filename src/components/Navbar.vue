@@ -18,12 +18,12 @@
 <script>
 export default {
   props: {
-    logoText: { type: String, default: "My Site" },
+    logoText: { type: String, default: "Peak Performance Wash" },
     logoHref: { type: String, default: "Home" },
     navLinks: { type: Array, default: () => [] },
     variant: { type: String, default: "dark" },
     color: { type: String, default: "info" },
-    base: { type: String, default: "/Vue-Template-Project" },
+    base: { type: String, default: "/CarWash" },
   },
 };
 </script>

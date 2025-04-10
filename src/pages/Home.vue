@@ -1,11 +1,11 @@
 <template>
   
     <Hero
-        title="Welcome to Our Site!"
-        subtitle="Sample Subtitle"
-        buttonText="Explore Now"
+        title="Drive Clean, Drive Happy"
+        subtitle="Welcome to, Seymour's newest destination for a sparkling clean car! We offer fast, reliable, and high-quality washes to keep your vehicle looking its best."
+        buttonText="Explore Our Options"
         buttonHref="Contact"
-        imageUrl="https://placehold.co/1600x900"
+        imageUrl= "./src/assets/images/hero-background.jpg"
       />
     <BContainer class="section-padding">
       <ImageWithText
@@ -31,14 +31,14 @@
     </BRow>
     <FeatureList
       :features="[
-        { title: 'Feature 1', description: 'Description for Feature 1', icon:'bi-1-square'},
+        { title: 'Basic Wash', description: 'Description for Feature 1', icon:'bi-1-square'},
         {
-          title: 'Feature 2',
+          title: 'Shine & Protect',
           description: 'Description for Feature 2',
           icon: 'bi-2-square',
         },
         {
-          title: 'Feature 3',
+          title: 'Ultimate Detail',
           description: 'Description for Feature 3',
           icon: 'bi-3-square',
         },

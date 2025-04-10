@@ -1,6 +1,6 @@
 <template>
   <Navbar
-    logoText="My Awesome Site"
+    logoText="Peak Performance Wash"
     :navLinks="[
       { text: 'Home', href: 'Home' },
       { text: 'About', href: 'About' },
