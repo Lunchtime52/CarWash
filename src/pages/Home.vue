@@ -1,14 +1,13 @@
 <template>
-  
-    <Hero
-        title="Drive Clean, Drive Happy"
-        subtitle="Welcome to, Seymour's newest destination for a sparkling clean car! We offer fast, reliable, and high-quality washes to keep your vehicle looking its best."
-        buttonText="Explore Our Options"
-        buttonHref="Contact"
-        imageUrl= "./src/assets/images/hero-background.jpg"
-      />
-    <BContainer class="section-padding">
-      <ImageWithText
+  <Hero
+    title="Get Your Car Sparkling at Reef Rinse!"
+    subtitle="Dive into clean at Reef Rinse! We've brought the vibrant underwater world of 'Shark Tale' to your carwash experience. Get ready for a fun and effective clean that will leave your vehicle looking its best."
+    buttonText="Our Wash Packages"
+    buttonHref="Contact"
+    :imageUrl="heroImg"
+  />
+  <BContainer class="section-padding">
+    <ImageWithText
       imageUrl="https://placehold.co/800x400"
       title="Our Featured Product"
       text="This is a brief description of our featured product. It's awesome!"
@@ -17,7 +16,7 @@
     />
 
     <BRow mt-5 gap-4>
-      <BCol md=4 mb-md-4 v-for="n in 6" :key="n">
+      <BCol md="4" mb-md-4 v-for="n in 6" :key="n">
         <Card
           title="Card Title"
           text="Quick example text."
@@ -25,21 +24,25 @@
           imgAlt="Card Image"
           cardMargin="mb-4"
           buttonText="Read More"
-          
         />
       </BCol>
     </BRow>
     <FeatureList
       :features="[
-        { title: 'Basic Wash', description: 'Description for Feature 1', icon:'bi-1-square'},
         {
-          title: 'Shine & Protect',
-          description: 'Description for Feature 2',
+          title: 'The Coral Quick Clean',
+          description: 'A fast and effective rinse to remove surface dirt.',
+          icon: 'bi-1-square',
+        },
+        {
+          title: 'The Seaweed Scrub',
+          description: 'A more thorough wash including undercarriage cleaning.',
           icon: 'bi-2-square',
         },
         {
-          title: 'Ultimate Detail',
-          description: 'Description for Feature 3',
+          title: 'The Pearl Polish',
+          description:
+            'Our premium wash with sealant and tire shine for a dazzling finish.',
           icon: 'bi-3-square',
         },
       ]"
@@ -56,22 +59,26 @@
   </BContainer>
 </template>
 
-    <script>
-    import Hero from "../components/Hero.vue";
-    import ImageWithText from "../components/ImageWithText.vue";
-    import Card from "../components/Card.vue";
-    import FeatureList from "../components/FeatureList.vue";
-    import Gallery from "../components/Gallery.vue";
-    import Testimonial from "../components/Testimonial.vue";
-    
-    export default {
-      components: {
-        Hero,
-        ImageWithText,
-        Card,
-        FeatureList,
-        Gallery,
-        Testimonial,
-      },
-    };
-    </script>
+<script>
+import Hero from "../components/Hero.vue";
+import ImageWithText from "../components/ImageWithText.vue";
+import Card from "../components/Card.vue";
+import FeatureList from "../components/FeatureList.vue";
+import Gallery from "../components/Gallery.vue";
+import Testimonial from "../components/Testimonial.vue";
+import { heroImg } from "../js/main.js";
+
+export default {
+  components: {
+    Hero,
+    ImageWithText,
+    Card,
+    FeatureList,
+    Gallery,
+    Testimonial,
+  },
+  data(){
+    return {heroImg}
+  }
+};
+</script>

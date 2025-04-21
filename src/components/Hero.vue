@@ -11,10 +11,10 @@
   >
     <div
       class="  d-flex flex-column justify-content-center align-items-center"
-      :style="{height:'75vh'}"
+      :style="{height:'75vh', padding: `${padding}rem`}"
     >
       <h1 :class="`display-${titleScale}`">{{ title }}</h1>
-      <p v-if="subtitle" :class="`fs-${subtitleScale}`">{{ subtitle }}</p>
+      <p v-if="subtitle" :class="`fs-${subtitleScale}rem`">{{ subtitle }}</p>
       <BButton
         v-if="buttonText"
         :variant="buttonVariant"
@@ -28,6 +28,7 @@
 </template>
 
 <script setup>
+
 const props = defineProps({
   title: { type: String, required: true },
   subtitle: { type: String, required: false, default: "" },
@@ -35,10 +36,10 @@ const props = defineProps({
   buttonVariant: { type: String, required: false, default: "primary" },
   buttonSize: { type: String, required: false, default: "md" },
   buttonHref: { type: String, required: false, default: "Contact" },
-  padding: { type: Number, required: false, default: 5 },
+  padding: { type: Number, required: false, default: 2 },
   background: { type: String, required: false, default: "light" },
   titleScale: { type: Number, required: false, default: 3 },
-  subtitleScale: { type: Number, required: false, default: 5 },
+  subtitleScale: { type: Number, required: false, default: 3 },
   imageUrl: { type: String, required: false, default: "" },
 });
 </script>

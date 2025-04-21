@@ -6,7 +6,7 @@
     <h2 class="text-center my-2 text-danger">Hero:</h2>
     <Hero
       class="border border-danger"
-      image-url="https://mdbcdn.b-cdn.net/img/new/slides/003.webp"
+      imageUrl="https://mdbcdn.b-cdn.net/img/new/slides/003.webp"
       title="Hero Title"
       subtitle="Hero Subtitle"
       button-text="Hero Button"

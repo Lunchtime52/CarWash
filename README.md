@@ -1,87 +1,57 @@
-# Vue 3 + Vite + Bootstrap Project Template
+# Sharktales Car Wash
 
-This project template offers a solid starting point for creating modern web applications with Vue 3, Vite, and Bootstrap. It includes pre-configured routing, styling with Bootstrap, and utilizes Vite for a fast development experience and optimized production builds.
+This is the web application for Sharktales Car Wash, built using Vue.js, Vite, and Bootstrap. This website is designed to provide customers with all the information they need about our car wash services, as well as convenient features to enhance their experience.
+
+## Project Overview
+
+Sharktales Car Wash aims to be the premier car wash destination, offering high-quality cleaning services and a seamless customer experience. This web application serves as the central hub for customers to learn about our services, find our location, book appointments, and more.
 
 ## Features
 
-- **Vue.js 3:** Built with the latest version of Vue.js.
-- **Vue Router:** Pre-configured for client-side routing and navigation.
-- **UI Library:** Pre-configured with Bootstrap 5.
-- **Styling:** Ready to use with Bootstrap 5 for creating responsive and stylish user interfaces.
-- **State Management:** Ready for state management with Pinia.
-- **Linting:** ESLint and Prettier for consistent code style.
-- **Testing**: Vitest is configured for unit and component testing.
-- **Development Server:** Hot Module Replacement (HMR) for a seamless development experience.
-- **Build:** Optimized for production with Vite.
+-   **Location Finder:** Easily locate our car wash using an interactive map and get directions.
+-   **Car Wash Packages:** Browse our various car wash packages and find the perfect one for your vehicle's needs.
+-   **Online Booking:** Schedule your car wash appointment online at a time that suits you.
+-   **Membership Sign-Up:** Learn about and sign up for our exclusive membership programs to get the best deals and perks.
+-   **Gallery:** Check out our gallery of before-and-after photos to see the quality of our work.
+-   **Contact Form:** Get in touch with us easily using our contact form for any inquiries or feedback.
 
-## Getting Started
+## Branding
 
-1.  **Clone the Repository:**
+### Logo
 
-    ```bash
-    git clone <repository-url>
-    cd <project-directory>
-    ```
+-   **Description:** The Sharktales Car Wash logo features a stylized shark fin or shark silhouette with water or wave elements, emphasizing cleanliness and sharpness.
+-   **File Location:** [Link to Media Folder](link-to-media-folder-here) (e.g., `media/logo/`)
+-   **File Formats:** The logo is available in `.svg`, `.png`, and `.jpg` formats for various uses.
+- **Variations** logo has a text version and a icon only version for different cases.
 
-2.  **Install Dependencies:**
+### Color Scheme
 
-    ```bash
-    npm install
-    ```
+-   **Primary:** Deep Ocean Blue (`#0047AB`) - Represents trust, professionalism, and the ocean theme.
+-   **Secondary:** Aqua Blue (`#00FFFF`) - Represents freshness and cleanliness.
+-   **Accent:** Bright Yellow (`#FFFF00`) - Used sparingly for calls to action and highlights.
+-   **Neutral:** Light Gray (`#F5F5F5`) - For backgrounds and text contrast.
 
-3.  **Start the Development Server:**
+### Catchphrases
 
-    ```bash
-    npm run dev
-    ```
+-   "Where Your Car Gets the Royal Treatment."
+-   "Dive into Clean, Drive Away Happy!"
+-   "The Ultimate Clean for Your Vehicle."
+-   "Making a Splash with Every Wash!"
 
-4.  **Run Tests**
+## Usage
 
-    ```bash
-    npm run test:unit
-    ```
+This website is designed to be user-friendly and accessible on any device. Navigate through the different sections to explore our services, find our location, schedule an appointment, and more.
 
-## Project Structure
+## Technologies Used
 
-```
-vue-template-project/
-├── public/            # Static assets
-├── src/               # Source code
-│   ├── assets/        # Images, fonts, etc.
-│   ├── components/    # Reusable Vue components
-│   ├── layouts/     # App layout components
-│   ├── router/        # Vue Router configuration
-│   ├── stores/       # Pinia state management
-│   ├── plugins/ #Vue plugins
-│   ├── views/         # Page-level components
-│   ├── App.vue        # Main application component
-│   └── main.js        # Entry point
-├── .eslintrc.cjs      # ESLint configuration
-├── .prettierrc.cjs    # Prettier configuration
-├── vite.config.js     # Vite configuration
-├── index.html         # Template HTML file
-├── package.json       # Project dependencies
-└── README.md          # Project documentation
-```
+-   **Vue.js:** A progressive JavaScript framework for building user interfaces. [Vue.js Documentation](https://vuejs.org/guide/introduction.html)
+-   **Vite:** A build tool that aims to provide a faster and leaner development experience for modern web projects. [Vite Documentation](https://vitejs.dev/guide/)
+-   **Bootstrap:** A CSS framework for creating responsive and mobile-first websites. [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-## Customization
+## Media Resources
 
-- **Components:** Add your custom components in the `src/components` directory.
-- **Layouts**: Create new layouts in the `src/layouts` folder.
-- **Views:** Create new views (pages) in the `src/views` directory.
-- **Routes:** Define new routes in `src/router/index.js`.
-- **State:** Add state stores in `src/stores`.
-- **Plugins**: Add new vue plugins to `src/plugins` and remember to register them in the main.js
-- **Configuration:** Modify `vite.config.js`, `.eslintrc.cjs`, and `.prettierrc.cjs` as needed.
+-   **Media Folder:** [Link to Media Folder](link-to-media-folder-here) - This folder contains all project media assets, including logos, images, and videos.
 
-## Building for Production
+## Contact
 
-```bash
-npm run build
-```
-
-This will create an optimized production build in the `dist` directory.
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and submit a pull request.
+For any questions or feedback, please contact the project team at [project-email@example.com](mailto:project-email@example.com).

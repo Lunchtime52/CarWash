@@ -1,6 +1,7 @@
 <template>
   <Navbar
-    logoText="Peak Performance Wash"
+    logoText="Reef Rinse"
+    
     :navLinks="[
       { text: 'Home', href: 'Home' },
       { text: 'About', href: 'About' },
